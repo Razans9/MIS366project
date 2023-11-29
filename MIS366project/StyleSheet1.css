@@ -1,0 +1,15 @@
+﻿body {
+    background-color: #D9E3D4;
+    font-family:'Times New Roman', Times, serif;
+
+}
+table {
+    color: #006600;
+    font-family:'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight:bold;
+}
+.wname{
+    position:relative;
+    top:-5ex;
+}

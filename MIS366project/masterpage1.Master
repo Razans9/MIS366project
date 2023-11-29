@@ -1,0 +1,81 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="masterpage1.master.cs" Inherits="MIS366project.masterpage1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link rel="StyleSheet" type="text/css" href="StyleSheet1.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 71%;
+            height: 321px;
+        }
+        .auto-style3 {
+            height: 111px;
+        }
+        .auto-style5 {
+            width: 100%;
+        }
+        .auto-style7 {
+            width: 176px;
+        }
+        .auto-style8 {
+            width: 648px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+               
+            <table align="center" class="auto-style1">
+                <tr>
+                    <td colspan="2" class="auto-style3">
+                        
+                        <asp:Image ID="Image1" runat="server" EnableTheming="True" Height="106px" ImageAlign="AbsBottom" ImageUrl="~/image/artosasis.png.jpg" Width="170px" />
+                        <asp:Label ID="Label1" runat="server" BorderStyle="None" CssClass="wname" ForeColor="#006600" Text="ARTOSASIS" ></asp:Label>
+                        &nbsp;&nbsp;<hr />  
+                    </td>
+                    <td class="auto-style3">
+                        
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style7">
+                        
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                        </asp:ContentPlaceHolder>
+                        
+                    </td>
+                    <td class="auto-style8">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                            <p>
+                                &nbsp;</p>
+                        </asp:ContentPlaceHolder>
+                    </td>
+                    <td>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+            </table>
+               
+        </div>
+    <hr />
+    <table class="auto-style5">
+        <tr>
+            <td>
+                <br />
+                <br />
+                Contact Us :<br />
+                Phone: 050093854<br />
+                Email: artoasis@gmail.com
+            </td>
+        </tr>
+    </table>
+    </form>
+    </body>
+</html>
